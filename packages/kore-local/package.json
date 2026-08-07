@@ -1,0 +1,39 @@
+{
+  "name": "@silurus/ooxml",
+  "version": "0.76.1-kore.2",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    },
+    "./docx": {
+      "types": "./dist/types/docx.d.ts",
+      "import": "./dist/docx.mjs",
+      "default": "./dist/docx.mjs"
+    },
+    "./xlsx": {
+      "types": "./dist/types/xlsx.d.ts",
+      "import": "./dist/xlsx.mjs",
+      "default": "./dist/xlsx.mjs"
+    },
+    "./pptx": {
+      "types": "./dist/types/pptx.d.ts",
+      "import": "./dist/pptx.mjs",
+      "default": "./dist/pptx.mjs"
+    },
+    "./math": {
+      "types": "./dist/types/math.d.ts",
+      "import": "./dist/math.mjs",
+      "default": "./dist/math.mjs"
+    },
+    "./node": {
+      "types": "./dist/types/node.d.ts",
+      "import": "./dist/node.mjs",
+      "default": "./dist/node.mjs"
+    }
+  }
+}
